@@ -1,0 +1,76 @@
+pwd
+/home/Hans-sss/tmp/WEEK05/DEMO05
+date
+Sun 04 Apr 2021 01:31:37 PM WIB
+12-memory
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ZCZC chktoken
+Hans-sss 3137-0D97
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+MiB Mem :    986.8 total,    550.6 free,     83.3 used,    352.9 buff/cache
+MiB Swap:    498.0 total,    498.0 free,      0.0 used.    762.8 avail Mem 
+
+  PID    VIRT    RES    SHR   SWAP   CODE    DATA   USED nDRT
+ 1189    6000   1588   1300      0      8     948   1588    0
+PART 1
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ 1189    6132   1588   1300      0      8    1080   1588    0 [1E608]
+ 1189    6008   2624   2292      0      8     956   2624    0 [1E608]
+ 1189    6008   2624   2292      0      8     956   2624    0 [1E609]
+ 1189    6008   2624   2292      0      8     956   2624    0 [1E609]
+ 1189    6008   2624   2292      0      8     956   2624    0 [1E609]
+ 1189    6008   2624   2292      0      8     956   2624    0 [1F608]
+ 1189    6008   2624   2292      0      8     956   2624    0 [1F608]
+ 1189    6008   2628   2292      0      8     956   2628    0 [1F609]
+ 1189    6008   2628   2292      0      8     956   2628    0 [1F609]
+ 1189    6140   2628   2292      0      8    1088   2628    0 [20FE8]
+ 1189    6140   2628   2292      0      8    1088   2628    0 [20FE8]
+ 1189    6140   2628   2292      0      8    1088   2628    0 [40608]
+ 1189    6140   2628   2292      0      8    1088   2628    0 [40608]
+ 1189    6140   2628   2292      0      8    1088   2628    0 [40609]
+ 1189    6140   2628   2292      0      8    1088   2628    0 [40609]
+
+PART 2
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ 1189    6140   2684   2292      0      8    1088   2684    0 [1E608]
+ 1189    6140   2684   2292      0      8    1088   2684    0 [1E608]
+ 1189    6140   2756   2292      0      8    1088   2756    0 [1E609]
+ 1189    6140   2756   2292      0      8    1088   2756    0 [1E609]
+ 1189    6140   2756   2292      0      8    1088   2756    0 [1E609]
+ 1189    6140   2756   2292      0      8    1088   2756    0 [1F608]
+ 1189    6140   2756   2292      0      8    1088   2756    0 [1F608]
+ 1189    6140   2756   2292      0      8    1088   2756    0 [1F609]
+ 1189    6140   2756   2292      0      8    1088   2756    0 [1F609]
+ 1189    6140   2756   2292      0      8    1088   2756    0 [20FE8]
+ 1189    6140   2756   2292      0      8    1088   2756    0 [20FE8]
+ 1189    6140   2768   2292      0      8    1088   2768    0 [40608]
+ 1189    6140   2872   2292      0      8    1088   2872    0 [40608]
+ 1189    6140   2872   2292      0      8    1088   2872    0 [40609]
+ 1189    6140   2872   2292      0      8    1088   2872    0 [40609]
+=======================
+ls -al
+total 1520
+drwxr-xr-x 2 Hans-sss Hans-sss   4096 Apr  4 13:31 .
+drwxr-xr-x 3 Hans-sss Hans-sss   4096 Mar 30 18:34 ..
+-rw-r--r-- 1 Hans-sss Hans-sss  30866 Mar 30 18:34 01-top.jpg
+-rw-r--r-- 1 Hans-sss Hans-sss 150852 Mar 30 18:34 02-top.jpg
+-rw-r--r-- 1 Hans-sss Hans-sss 127192 Mar 30 18:34 03-top.jpg
+-rw-r--r-- 1 Hans-sss Hans-sss 165575 Mar 30 18:34 04-top.jpg
+-rw-r--r-- 1 Hans-sss Hans-sss 147700 Mar 30 18:34 05-top.jpg
+-rw-r--r-- 1 Hans-sss Hans-sss 152564 Mar 30 18:34 06-top.jpg
+-rw-r--r-- 1 Hans-sss Hans-sss 148556 Mar 30 18:34 07-top.jpg
+-rw-r--r-- 1 Hans-sss Hans-sss 150142 Mar 30 18:34 08-top.jpg
+-rw-r--r-- 1 Hans-sss Hans-sss 149904 Mar 30 18:34 09-top.jpg
+-rw-r--r-- 1 Hans-sss Hans-sss 147508 Mar 30 18:34 10-top.jpg
+-rw-r--r-- 1 Hans-sss Hans-sss  87596 Mar 30 18:34 11-top.jpg
+-rwxr-xr-x 1 Hans-sss Hans-sss  17608 Apr  4 13:31 12-memory
+-rw-r--r-- 1 Hans-sss Hans-sss   2804 Mar 30 18:34 12-memory.c
+-rw-r--r-- 1 Hans-sss Hans-sss  20884 Apr  4 13:31 12-memory.map
+-rw-r--r-- 1 Hans-sss Hans-sss   1778 Mar 30 18:34 13-chktoken.c
+-rw-r--r-- 1 Hans-sss Hans-sss    428 Mar 30 18:34 Makefile
+-rw-r--r-- 1 Hans-sss Hans-sss   2844 Apr  4 13:31 WEEK05-DEMO05.txt
+pwd
+/home/Hans-sss/tmp/WEEK05/DEMO05
+date
+Sun 04 Apr 2021 01:31:42 PM WIB
+mv WEEK05-DEMO05.txt ../../
