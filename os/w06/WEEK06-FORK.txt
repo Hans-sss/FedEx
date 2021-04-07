@@ -1,0 +1,48 @@
+pwd
+/home/Hans-sss/git/FedEx/os/w06/WEEK06/FORK
+date
+Wed 07 Apr 2021 11:24:27 AM WIB
+gcc -std=gnu18  mylib.c mytest.c -o mytest 
+gcc -std=gnu18  mylib.c chktoken.c -o chktoken 
+gcc -std=gnu18  mylib.c verifyToken.c -o verifyToken 
+gcc -std=gnu18  mylib.c myfork.c -o myfork 
+./myfork 
+PID[626][Hans-sss 2432-C8AB]-[3]
+PID[620][Hans-sss 2431-1D4D]-[2]
+PID[614][Hans-sss 2430-B2BB]-[1]
+PID[608][Hans-sss 2429-FB98]-[0]
+cat WEEK06-MEMORY-SHARE.bin | wc -c > WEEK06-MEMORY-SHARE.txt
+cat WEEK06-MEMORY-SHARE.bin | tr -dc '[:alnum:]\n -_' >> WEEK06-MEMORY-SHARE.txt
+bash mytest.sh
+ZCZC Wed 07 Apr 2021 11:24:33 AM WIB
+ZCZC Hans-sss 2433-8C33: Verified
+ZCZC BINSIZE 1028
+ZCZC TXTSIZE 84
+ZCZC Hans-sss 2429-FB98: Verified
+ZCZC Hans-sss 2430-B2BB: Verified
+ZCZC Hans-sss 2431-1D4D: Verified
+ZCZC Hans-sss 2432-C8AB: Verified
+ls -al
+total 132
+drwxr-xr-x 2 Hans-sss Hans-sss  4096 Apr  7 11:24 .
+drwxr-xr-x 3 Hans-sss Hans-sss  4096 Apr  5 18:36 ..
+-rwxr-xr-x 1 Hans-sss Hans-sss 17632 Apr  7 11:24 chktoken
+-rw-r--r-- 1 Hans-sss Hans-sss   651 Apr  5 18:36 chktoken.c
+-rw-r--r-- 1 Hans-sss Hans-sss  1085 Apr  5 18:36 Makefile
+-rwxr-xr-x 1 Hans-sss Hans-sss 17808 Apr  7 11:24 myfork
+-rw-r--r-- 1 Hans-sss Hans-sss  1423 Apr  5 18:36 myfork.c
+-rw-r--r-- 1 Hans-sss Hans-sss  2402 Apr  5 18:36 mylib.c
+-rw-r--r-- 1 Hans-sss Hans-sss  1913 Apr  5 18:36 mylib.h
+-rwxr-xr-x 1 Hans-sss Hans-sss 17712 Apr  7 11:24 mytest
+-rw-r--r-- 1 Hans-sss Hans-sss  1033 Apr  5 18:36 mytest.c
+-rw-r--r-- 1 Hans-sss Hans-sss  1000 Apr  5 18:36 mytest.sh
+-rwxr-xr-x 1 Hans-sss Hans-sss 17632 Apr  7 11:24 verifyToken
+-rw-r--r-- 1 Hans-sss Hans-sss   789 Apr  5 18:36 verifyToken.c
+-rw-r--r-- 1 Hans-sss Hans-sss   823 Apr  7 11:24 WEEK06-FORK.txt
+-rw-rw-rw- 1 Hans-sss Hans-sss  1028 Apr  7 11:24 WEEK06-MEMORY-SHARE.bin
+-rw-r--r-- 1 Hans-sss Hans-sss    84 Apr  7 11:24 WEEK06-MEMORY-SHARE.txt
+pwd
+/home/Hans-sss/git/FedEx/os/w06/WEEK06/FORK
+date
+Wed 07 Apr 2021 11:24:33 AM WIB
+mv WEEK06-FORK.txt ../../
