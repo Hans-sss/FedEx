@@ -1,0 +1,24 @@
+DEADLINE: jam 08:00 pagi ini.
+PENTING: Email dalam format TEXT, JANGAN HTML.
+
+1) Apabila dapat membaca pesan ini -- umpama pada jam "07:31" -- segera kirim ke :
+Email address: operatingsystems@vlsm.org
+Email Subject: OS211QUIZ
+Email Format: ZCZC W07 Q02 akunGitHub "JamMenit"
+Contoh: ZCZC W07 Q02 cbkadal 0731
+
+2) Buat sebuah script "script.sh", yang outputnya ialah:
+"ZCZC W07 Q02 akunGitHub JamMenit"
+Contoh: ZCZC W07 Q02 cbkadal 0731
+
+3) Simpan berkas "script.sh" tersebut di sebuah drive publik.
+   (umpama Google Drive). Kirim ke:
+Email address: operatingsystems@vlsm.org
+Email Subject: OS211QUIZ
+Email Format: ZCZC W07 Q03 akunGitHub "URL-script.sh"
+Contoh: ZCZC W07 Q03 cbkadal https://drive.google.com/file/d/1t0-FhuKPlEjguDZ32O3MXvEJzffCSCSg/view?usp=sharing
+
+
+
+# START Tue 27 Apr 2021 07:13:43 WIB
+
