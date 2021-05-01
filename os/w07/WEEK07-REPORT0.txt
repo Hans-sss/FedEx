@@ -1,0 +1,41 @@
+ZCZC R01 pwd /home/Hans-sss/git/FedEx/os/w07/WEEK07/SYNC
+ZCZC R02 date Sat 01 May 2021 09:32:29 AM WIB
+gcc -std=gnu18  mylib.c mytest.c -o mytest 
+gcc -std=gnu18  mylib.c makeMyShareMemory.c -o makeMyShareMemory 
+=====   mytest...
+./mytest
+Sat 01 May 2021 09:32:30 AM WIB
+mySHA1[INPUT][4E498E]
+getTimeStamp[210501-093230]
+createStamp[Hans-sss 210501-093230 B33C32]
+verifyStamp[INPUT Hans-sss 210501-093230 B33C32]: Verified
+ZCZC SM2 shared memory is OK (SUCCESS)
+START: LOOP...
+Sat 01 May 2021 09:32:32 AM WIB
+Sat 01 May 2021 09:32:34 AM WIB
+END: LOOP...
+DELTA 210413-235959 210414-000001 [2]
+str2sec 450817-100000 1504800
+str2sec 210817-100000 1504800
+TESTTEST
+=====   makeMyShareMemory...
+./makeMyShareMemory
+ZCZC R03 ls -al
+total 80
+drwxr-xr-x 2 Hans-sss Hans-sss  4096 May  1 09:32 .
+drwxr-xr-x 3 Hans-sss Hans-sss  4096 Apr 17 23:30 ..
+-rw-r--r-- 1 Hans-sss Hans-sss  1103 Apr 17 23:30 Makefile
+-rwxr-xr-x 1 Hans-sss Hans-sss 18168 May  1 09:32 makeMyShareMemory
+-rw-r--r-- 1 Hans-sss Hans-sss  1172 Apr 17 23:30 makeMyShareMemory.c
+-rw-r--r-- 1 Hans-sss Hans-sss  3832 Apr 17 23:30 mylib.c
+-rw-r--r-- 1 Hans-sss Hans-sss  2441 Apr 17 23:30 mylib.h
+-rwxr-xr-x 1 Hans-sss Hans-sss 18152 May  1 09:32 mytest
+-rw-r--r-- 1 Hans-sss Hans-sss  1461 Apr 17 23:30 mytest.c
+-rw-rw-rw- 1 Hans-sss Hans-sss    32 May  1 09:32 WEEK07-MYSYNC.bin
+-rw-r--r-- 1 Hans-sss Hans-sss   727 May  1 09:32 WEEK07-REPORT0.txt
+-rw-r--r-- 1 Hans-sss Hans-sss   233 May  1 09:32 WEEK07-REPORT1.txt
+ZCZC R04 pwd /home/Hans-sss/git/FedEx/os/w07/WEEK07/SYNC
+ZCZC R05 date Sat 01 May 2021 09:32:34 AM WIB
+mv WEEK07-REPORT1.txt ../../
+mv WEEK07-MYSYNC.bin ../../
+mv WEEK07-REPORT0.txt ../../
