@@ -1,0 +1,27 @@
+ZCZC pwd
+/home/Hans-sss/RESULT/W08
+ZCZC date
+Sat 08 May 2021 01:54:28 AM WIB
+ZCZC df
+Filesystem     1K-blocks    Used Available Use% Mounted on
+udev             4070060       0   4070060   0% /dev
+tmpfs             816996    8652    808344   2% /run
+/dev/sda2       65535548 3245948  58930880   6% /
+tmpfs            4084964       0   4084964   0% /dev/shm
+tmpfs               5120       0      5120   0% /run/lock
+tmpfs            4084964       0   4084964   0% /sys/fs/cgroup
+/dev/sdb2       65543732   53272  62131228   1% /lfs
+tmpfs             816992       0    816992   0% /run/user/0
+tmpfs             816992       0    816992   0% /run/user/1001
+ZCZC hostnamectl
+   Static hostname: Hans-sss
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: a5552b5a25f04d32bd0558a223fe8b02
+           Boot ID: 75fe9524dd66436c9b1ff9d4af9d1a0d
+    Virtualization: oracle
+  Operating System: Debian GNU/Linux 10 (buster)
+            Kernel: Linux 4.19.0-16-amd64
+      Architecture: x86-64
+ZCZC chktoken
+Hans-sss 5501-AB2B
